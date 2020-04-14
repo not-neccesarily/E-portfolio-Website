@@ -5,7 +5,7 @@
   background-color: #333;
   font-family: Arial;
   margin: -10px;
-  padding-top: 10px;
+  padding-top: 5px;
   padding-left: 10px;
 }
 
@@ -75,14 +75,29 @@ header h1{ /*Styling for the header*/
 	text-align: center;
 	font-size: 50px;
 	font-family: 'Comic Neue', 'Arial', sans-serif;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 	margin-top: 10px;
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: -10px;
 	color: white;
 	background-image: url('IMG/Background.jpg');
+  background-position: center;
+}
+
+.internet{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Comic Neue', 'Arial', sans-serif;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-top: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  color: white;
+  background-image: url('IMG/Background.jpg');
   background-position: center;
 }
 .row {   /*Side by side images*/
@@ -104,6 +119,7 @@ h2{
 }
 p.homepage-paragraph {
   font-family: 'Arial', 'Helvetica', sans-serif;
+  margin: 0 auto;
 
 }
 header {
@@ -116,4 +132,18 @@ header {
 body {
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+main img{
+  max-width: 100%;
+}
+p.caption{
+  color: #999999;
+  font-style: italic;
+  margin-top: 0;
+  text-align: center;
 }
