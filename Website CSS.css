@@ -79,8 +79,6 @@ header h1{ /*Styling for the title*/
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: -10px;
-	color: white;
-	background-image: url('IMG/Smoke.jpg');
-	background-position: center;
-
+	color: black;
+	background-image: url('IMG/Background.jpg');
 }
