@@ -162,3 +162,10 @@ hr.bold {
   border-width: 5px;
   border-color: #3376FF;
 }
+
+li {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
