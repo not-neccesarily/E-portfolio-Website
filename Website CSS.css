@@ -69,7 +69,7 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-header h1{ /*Styling for the title*/
+header h1{ /*Styling for the header*/
 	text-align: center;
 	font-size: 50px;
 	font-family: 'Comic Neue', 'Arial', sans-serif;
@@ -79,6 +79,24 @@ header h1{ /*Styling for the title*/
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: -10px;
-	color: black;
+	color: white;
 	background-image: url('IMG/Background.jpg');
+  background-position: center;
+}
+.row {   /*Side by side images*/
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+h2{
+  font-family: 'Roboto Mono', 'Helvetica', sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  margin-top: 30px;
+
 }
