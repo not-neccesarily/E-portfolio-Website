@@ -182,3 +182,7 @@ footer {
   margin-bottom: -50px;
   overflow: hidden;
 }
+
+a:link {
+  color: red;
+}
