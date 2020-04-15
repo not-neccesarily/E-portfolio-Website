@@ -183,6 +183,10 @@ footer {
   overflow: hidden;
 }
 
-a:link {
+a {
   color: red;
+}
+
+a:hover {
+  color: #3376FF;
 }
