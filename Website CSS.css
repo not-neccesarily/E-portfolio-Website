@@ -120,7 +120,7 @@ h2{
 p.homepage-paragraph {
   font-family: 'Arial', 'Helvetica', sans-serif;
   margin: 0 auto;
-
+  padding: 0 0 50px 30px;
 }
 header {
 
@@ -151,6 +151,7 @@ p.caption{
 
 p {
   line-height: 30px;
+  padding-left: 0 0 50px 30px;
 }
 hr.bold {
   display: block;
@@ -168,4 +169,16 @@ li {
     margin: 0 auto;
     padding-bottom: 10px;
     line-height: 30px;
+}
+footer {
+  background-color: #333;
+  font-style: 'Arial', 'Helvetica', sans-serif;
+  color: white; 
+  margin: -10px;
+  padding: 0 0 0 0;
+  border-color: #333;
+  border-style: solid;
+  border-width: 10px;
+  margin-bottom: -50px;
+  overflow: hidden;
 }
