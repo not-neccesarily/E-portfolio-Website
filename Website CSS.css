@@ -1,12 +1,14 @@
 /*Designing for the Dropdown navigation menu on all the pages*/
 /* Navbar container */
 .navigationbar {
-  overflow: hidden;
   background-color: #333;
   font-family: Arial;
   margin: -10px;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-left: 10px;
+  top: 0;
+  position: fixed;
+  width: 100%;
 
 }
 
@@ -25,7 +27,6 @@
 /* The dropdown container */
 .dropdown {
   float: left;
-  overflow: hidden;
 }
 
 /* Dropdown button */
